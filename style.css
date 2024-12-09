@@ -1,0 +1,528 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html,body {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+
+.main{
+    width: 100%;
+
+}
+
+.pic{
+    width: 100%;
+    /* height: 100%; */
+    color: white;
+    background-image: url('/Assets/image/tiger2.jpg');
+    background-size: cover;
+}
+
+
+.navbar-dark{
+    color: white !important;
+
+}
+
+.navg{
+    background-color: #081c15 !important;
+}
+
+
+.navh{
+    padding: 5px;
+    margin-left: 5px;
+}
+.navh:hover{
+    background-color: #588157b7;
+    border-radius: 2px;
+}
+
+.navbar-brand{
+    margin-right: 200px !important;
+    font-size: 26px !important;
+
+}
+
+.nav-link{
+    font-size: 19px !important;
+
+}
+
+.sectop{
+    /* width: 100%;
+    height: 30%; */
+    padding: 30px;
+}
+
+.subsec{
+    /* width: 100%;
+    height: 100%; */
+    display: flex;
+
+}
+.subsecimg{
+    width: 50px !important;
+    height: 10px !important;
+    margin-left: 2px;
+}
+#sectopimgp{
+    position: relative;
+    left: 2px;
+    top: 2px;
+    font-size: 28px;
+    color:white;
+
+}
+.secmid{
+    /* width: 100%;
+    height: 20%; */
+    padding: 10px;
+    margin-left: 15px;
+    position: relative;
+    bottom: 20px;
+
+}
+#secmidp{
+    font-size: 20px !important;
+    color:white;
+
+}
+#secmidh1{
+    color:white;
+    font-size: 35px !important;
+   
+}
+.secmid1{
+    /* width: 100%;
+    height:20% ; */
+
+}
+
+.secmid1p{
+    text-align: left;
+    position: relative;
+    bottom: 30px;
+    left: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    color:white;
+    font-size: 18px !important;
+
+
+}
+.donation{
+    position: relative;
+    bottom: 10px;
+    left: 30px;
+    color: white !important;
+    background-color: #588157 !important;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+width: 150px;
+height: 60px;
+border-radius: 30px;
+}
+
+.secbtm{
+    /* width: 100%;
+    height: 30%; */
+    position: relative;
+    left: 10px;
+}
+.subsecbtm{
+    /* width: 100%;
+    height: 30%; */
+    padding: 10px;
+   
+}
+
+.features-list {
+    display:flex;
+    /* flex-direction: column; */
+    /* justify-content: flex-end; */
+    /* align-items: flex-end; */
+    position: relative;
+    top: 20px ;
+    /* right: 35px; */
+  }
+  
+  .features-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+  }
+  
+  .features-item .item-icon {
+    color: #90d127 !important;
+    font-size: 3rem;
+    margin-block-start: 5px;
+    position: relative;
+    bottom: 20px ;
+  } 
+  
+  
+  .features-item .item-title { margin-block-end: 10px;
+  color: white; }
+  
+  .features-item .item-text {
+    max-width: 35ch;
+    color: white;
+    font-size: 17px !important;
+    /* margin-top: 10px; */
+  }
+  
+  
+  .item-icon{
+     
+      font-size: 30px !important;
+      margin-right: 20px;
+      /* position: relative; */
+        /* left: 10px !important; */
+  }
+
+
+
+
+
+
+
+/* *********home Section is over hear********** */
+
+
+.asectop{
+width: 100%;
+}
+.asubsectop{
+    width: 100%;
+    display: flex;
+
+}
+.asubsectopl{
+width: 60%;
+}
+
+.asubsectopr{
+    width: 40%;
+}
+
+.tab-nav{
+    display: flex !important;
+    list-style: none;
+
+}
+
+.btn{
+    margin-left: 10px !important;
+}
+
+.tab-item{
+    list-style: none;
+}
+.titem-icon{
+    color: #90d127 !important;
+    position: relative;
+    top: 5px;
+}
+.tab-text{
+    position: relative;
+    left: 20px;
+    font-size: 17px;
+    bottom: 20px;
+}
+.btnlm{
+    position: relative;
+    bottom: 10px;
+    box-shadow: 10px 10px 5px 0px rgba(85,166,48,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(85,166,48,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(85,166,48,0.75);
+}
+
+.btnlm:hover{
+    background-color: #386641 !important;
+   
+}
+
+/* ###################### about Section is over ################### */
+
+
+.sevsec-subtitle{
+
+}
+.sevsec-title{
+    font-size: 40px !important;
+}
+
+.service-list{
+    display: flex;
+    /* display: grid; */
+    gap: 30px;
+    list-style: none;
+
+}
+.service-card {
+    background-color: white;
+    text-align: left;
+    padding: 40px 40px;
+    border-radius: 2px;
+    outline: 4px solid transparent;
+    margin-top: 10px;
+   
+  }
+
+  .service-card:is(:hover, :focus-within) { outline-color: #344e41; }
+
+.service-card .card-icon {
+  color: #6a994e;
+  font-size: 7rem;
+  width: 200px !important;
+  margin-inline: auto;
+}
+
+
+/* ##################################### Service over ############################ */
+
+.donate-list {
+margin-top: 20px;
+list-style: none;
+}
+
+.donate-card{
+    border: 3px solid #344e41;
+    border-radius: 3px;
+    margin-bottom: 30px;
+    padding: 20px;
+
+}
+
+.donate-card .card-banner { background-color: var(--light-gray); }
+
+.donate-card .card-content {
+  background-color: white;
+  padding: 10px;
+ 
+}
+
+.progress-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.progress-text {
+  display: flex;
+  gap: 5px;
+  font-size: 20px;
+}
+
+.progress-text data {
+  color: black;
+  font-weight: 600px;
+}
+
+.donate-card .card-title { --fs-5: 2.1rem; }
+
+.progress-box {
+    background-color: #76c893;
+    border-radius: 20px;
+    margin-block: 10px 20px;
+  }
+
+.progress {
+  height: 6px;
+  width: 83%;
+  border-radius: inherit;
+  background-color: #386641 !important;
+}
+
+.progress-value {
+  color:#386641;
+  font-size: 18px;
+  font-weight: 400px;
+}
+
+.card-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5px;
+}
+
+
+.dobtn{
+    background-color: #606c38 !important;
+}
+
+
+/* ################################### Donate over ######################################## */
+
+
+.section-subtitle { 
+position: relative;
+left: 400px;
+top: 20px;
+padding: 10px;
+color: #69a804 !important;
+    
+ }
+
+.event .section-title {
+  text-align: center;
+  margin-block: 15px 50px;
+  margin-top: 25px;
+}
+
+.event-list {
+  display: grid;
+  gap: 30px;
+  margin-block-end: 70px;
+  list-style: none;
+
+}
+
+.event-card {
+  border: 1px solid #90d127;
+  padding: 40px 30px;
+  border-radius: 2px;
+  outline: 3px solid transparent;
+  transition: 2s;
+}
+
+
+.event-card:is(:hover, :focus-within) { outline-color: #69a804; }
+
+.event-card .card-time {
+  background-color: #69a804;
+  color: white;
+  font-weight: 600;
+  line-height: 1.3;
+  max-width: max-content;
+  padding: 10px 20px;
+  border-radius: 8px;
+  box-shadow: 0 10px 15px #69a804;
+}
+
+.event-card .card-time .month { font-size: 18px; }
+
+.event-card .card-time .date { font-size: 18px;}
+
+.event-card .card-subtitle {
+  margin-block: 30px 5px;
+  color: #69a804;
+  font-size: 28px;
+  font-weight: 600;
+  letter-spacing: -1px;
+}
+
+.card-subtitle{
+    position: relative !important;
+    left: 250px !important;
+    bottom: 65px ;
+    
+  }
+
+.event-card .card-title {
+  color: #344e41;
+  letter-spacing: -1px;
+}
+
+.event-card .card-text {
+  margin-block: 5px 30px;
+}
+
+.btn-outline-secondary{
+    margin-top: 20px;
+    width: 250px;
+    height: 40px;
+}
+
+.event .btn-secondary { 
+    margin-inline: auto;
+ }
+
+ .btneve{
+    position: relative;
+    bottom: 30px;
+    background-color: #386641 !important;
+    width: 250px;
+    height: 40px;
+ }
+
+ /* ################################ Event over ########################## */
+
+
+ .forest{
+    background-color: #344e41;
+    
+ }
+
+ 
+audio::-webkit-media-controls-panel {
+    background-color: #344e41;
+    
+  }
+ .footer {
+    background-color: #344e41;
+    color: white;
+    padding-block: 40px;
+  }
+  
+  .footer .container {
+    margin-inline: 20px;
+    background-color: #386641;
+    padding: 20px;
+    position: relative;
+    left: 80px;
+  }
+  
+  .footer-list,.copyright {
+    max-width: max-content;
+    margin-inline: 30px;
+    list-style: none;
+  }
+  
+  .footer-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5px 40px;
+    margin-block-end: 15px;
+ 
+  }
+  
+  .footer-link,
+  .copyright-link {
+    text-decoration: underline;
+    transition: 2s;
+  }
+  
+  .footer-link { 
+     color: white ;
+     position: relative;
+     left: 400px !important;
+
+}
+  
+  :is(.footer-link, .copyright-link):is(:hover, :focus) { 
+    background-color: hsla(0, 0%, 100%, 0.05);
+  }
+  
+  .copyright { text-align: center; }
+  
+  .copyright-link { display: inline-block; }
+
+  .carousel-inner{
+    width: 100% !important;
+    height: 30% !important;
+  }
